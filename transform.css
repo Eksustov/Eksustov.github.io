@@ -5,7 +5,7 @@
 *  Tad ar katru kvadrātu izdari to, kas prasīts HTML.
 */
 div {
-  transition: transform 2s;
+  transition: transform 0.5s;
 }
 article {
   margin-top: 120px;

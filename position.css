@@ -7,8 +7,8 @@ header{
 }
 body {margin:0;}
 body > img{
-    height: 300px;
-    width:500px;
+    height: 100vh;
+    width: 100vw;
 }
 main {
     margin-top: 50px;
@@ -36,6 +36,13 @@ a:hover{
     background-color:slateblue;
     position: relative;
 }
+article {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 10px;
+    background-color:cyan
+}
 .inner-cube{
     width:100px;
     height:100px;
@@ -49,6 +56,14 @@ a:hover{
 }
 .check {
     display:none;
+}
+.link{
+    text-align: center;
+    background-color:blueviolet;
+}
+.item-1{
+    grid-column: 2 / 3;
+    grid-row:1/4;
 }
 @media (max-width: 500px) {
     .check{
@@ -82,6 +97,3 @@ a:hover{
         display:flex;
     }
 }
-/*
-Man dzimšanas diena šodien
-*/
