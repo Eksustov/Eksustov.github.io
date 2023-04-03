@@ -103,8 +103,15 @@ article {
     align-items:center;
 }
 .bigbox{
-    display:flex;
-    align-items:center;
+    display:grid;
+    height:40vh;
+    width:40vw;
+    justify-content:initial
+}
+.bigbox > p{
+    color:white;
+    font-family:cursive;
+    font-size:30px;
 }
 @media (max-width: 500px) {
     .burger {
